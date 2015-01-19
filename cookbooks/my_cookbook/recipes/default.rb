@@ -6,3 +6,4 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+Log.info("Running on Linux")
