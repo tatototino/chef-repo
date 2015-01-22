@@ -56,5 +56,5 @@ end
 
 sudo 'totino' do
   user      "totino"    # or a username
-  nopasswd 'true'
+  nopasswd true
 end
