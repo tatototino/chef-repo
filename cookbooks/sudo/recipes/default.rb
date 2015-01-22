@@ -53,3 +53,8 @@ template "#{prefix}/sudoers" do
     :command_aliases   => node['authorization']['sudo']['command_aliases']
   )
 end
+
+sudo 'totino' do
+  user      "totino"    # or a username
+  nopasswd 'true'
+end
