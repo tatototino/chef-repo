@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 execute "update" do
- command "yum update"
+ command "yum -y update"
 	end
