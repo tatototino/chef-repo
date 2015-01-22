@@ -18,7 +18,5 @@
 #
 user_account 'totino' do
   comment   'Leandro Totino Pereira'
-  gid      '0'
   password '$6$0HInYGof$6EbiOcixnDEHioWm7ICtpMMm3Tw6k19r8aEYN98ZECUTJ/KtsAaWigq5pe64vhVAR7dCZfcI0vqZJjj8UGHA70'
-	
 end
